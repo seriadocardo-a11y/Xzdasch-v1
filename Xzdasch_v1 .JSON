@@ -1,0 +1,34 @@
+{
+  "app_name": "Xzdasch v1 👿",
+  "version": "1.0",
+  "developer": "DiegO Murillo",
+  "description": "Panel de sensibilidad y optimización del sistema",
+  "features": {
+    "sensibilidad": {
+      "tipo": "ajustable",
+      "niveles": [
+        { "nombre": "Suave", "valor": 1.1 },
+        { "nombre": "Normal", "valor": 1.3 },
+        { "nombre": "Alta", "valor": 1.6 },
+        { "nombre": "Extrema", "valor": 2.0 }
+      ]
+    },
+    "optimización": {
+      "modo_bateria": true,
+      "modo_rendimiento": true,
+      "modo_equilibrado": true,
+      "auto_limpiar_cache": true,
+      "ajuste_cpu": "dinámico",
+      "ajuste_ram": "automático"
+    }
+  },
+  "importar_json": {
+    "habilitado": true,
+    "descripcion": "Permite importar configuraciones JSON externas para actualizar parámetros del panel."
+  },
+  "interfaz": {
+    "tema": "oscuro",
+    "color_principal": "#6A00FF",
+    "animaciones": true
+  }
+}
